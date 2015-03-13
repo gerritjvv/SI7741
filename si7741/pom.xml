@@ -20,7 +20,8 @@
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-all</artifactId>
       <!-- any version of Groovy \>= 1.8.2 should work here -->
-      <version>2.4.1</version>
+      <!-- <version>2.4.1</version> -->
+      <version>1.8.2</version>
     </dependency>
 
 		<dependency>

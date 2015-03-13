@@ -26,7 +26,7 @@ class UsingIMain {
 				   import scala.tools.nsc._
                    def getIMain(cls:ClassLoader) = {
 					   val s = new Settings
-                       s.ignoreinnercls.value = $ignoreinnercls
+                       //s.ignoreinnercls.value = $ignoreinnercls
                        s.usejavacp.value = true
                        s.embeddedDefaults(cls)
                        new IMain(s){

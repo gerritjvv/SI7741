@@ -13,7 +13,8 @@ for f in $LIB/*.jar; do
 done
 
 BOOT=""
-for f in $LIB/scala*.jar; do
+#for f in $LIB/scala*.jar; do
+for f in $SCALA_HOME/lib/scala*.jar; do
  BOOT="$BOOT:$f"
 done
 
